@@ -106,3 +106,65 @@ footer {
 #scrollBtn:hover {
     background-color: #555;
 }
+
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    margin: 5rem auto;
+}
+
+.carouselContainer {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carouselItem {
+    flex: 0 0 600px;
+}
+
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.carousel button:hover {
+    background: linear-gradient(to left, #b50c71, #c01111);
+}
+
+.carouselPrev {
+    left: 0;
+}
+
+.carouselNext {
+    right: 0;
+}
+
+@media (max-width: 600px) {
+
+    .carousel {
+        width: 100%;
+    }
+
+    .carouselItem {
+        flex: 0 0 100%;
+    }
+
+    .herotitle {
+        font-size: 2.5rem;
+
+    }
+
+    .heroimage {
+        height: 60vh;
+
+    }
+}

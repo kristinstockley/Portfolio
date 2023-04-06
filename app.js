@@ -1,11 +1,3 @@
-// OPEN NEW WINDOW
-function openInNewWindow(event) {
-    event.preventDefault();
-    window.open(event.target.href, '_blank');
-}
-
-
-
 // GRADUATION COUNTDOWN
 const startButton = document.getElementById('countdownButton');
 
@@ -77,3 +69,47 @@ function scrollToTop() {
     setTimeout(scrollToTop, 1000);
   }
 }
+
+// CAROUSEL WORK IN PROGRESS
+const carousel = document.querySelector('.carousel');
+const container = carousel.querySelector('.carouselContainer');
+const prevBtn = carousel.querySelector('.carouselPrev');
+const nextBtn = carousel.querySelector('.carouselNext');
+
+let currentSlide = 0;
+let intervalId;
+
+function startInterval() {
+  intervalId = setInterval(() => {
+    currentSlide++;
+    if (currentSlide === container.children.length) {
+      currentSlide = 0;
+    }
+    container.style.transform = `translateX(-${currentSlide * 600}px)`;
+  }, 2000);
+}
+
+function stopInterval() {
+  clearInterval(intervalId);
+}
+
+function onPrevClick() {
+  stopInterval();
+  currentSlide--;
+  if (currentSlide < 0) {
+    currentSlide = container.children.length - 1;
+  }
+  container.style.transform = `translateX(-${currentSlide * 600}px)`;
+}
+
+function onNextClick() {
+  stopInterval();
+  currentSlide++;
+  if (currentSlide === container.children.length) {
+    currentSlide = 0;
+  }
+  container.style.transform = `translateX(-${currentSlide * 600}px)`;
+}
+
+prevBtn.addEventListener('click', onPrevClick);
+nextBtn.addEventListener('click', onNextClick);
