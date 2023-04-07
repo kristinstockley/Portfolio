@@ -3,6 +3,21 @@ body {
     font-size: 16px;
 }
 
+.aboutP {
+    font-size: 1.2rem;
+}
+
+#projects {
+    margin: 2rem;
+}
+
+
+footer {
+    background: linear-gradient(to left, #b50c71, #c01111);
+    padding: 3rem 1rem;
+}
+
+/* DARK MODE */
 .dark-mode {
     background-color: black;
     color: white;
@@ -13,7 +28,7 @@ body {
     border: solid white;
 }
 
-
+/* HERO SECTION */
 .heroimage {
     height: 100vh;
     background: url("https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
@@ -33,6 +48,7 @@ body {
 }
 
 
+/* NAV BAR */
 .navbar {
     padding: 1rem 0;
     background-color: black !important;
@@ -63,21 +79,7 @@ body {
 }
 
 
-.aboutP {
-    font-size: 1.2rem;
-}
-
-#projects {
-    margin: 2rem;
-}
-
-
-footer {
-    background: linear-gradient(to left, #b50c71, #c01111);
-    padding: 2rem;
-}
-
-
+/* PROJECTS PAGE */
 #comingSoonProjects {
     background: linear-gradient(to left, #b50c71, #c01111);
     text-align: center;
@@ -89,6 +91,8 @@ footer {
     font-weight: bold;
 }
 
+
+/* SCROLL TO TOP BUTTON */
 #scrollBtn {
     display: none;
     position: fixed;
@@ -107,7 +111,7 @@ footer {
     background-color: #555;
 }
 
-
+/* CAROUSEL */
 .carousel {
     position: relative;
     overflow: hidden;
@@ -148,10 +152,13 @@ footer {
     right: 0;
 }
 
+
+/* MEDIA QUERY */
 @media (max-width: 600px) {
 
     .carousel {
         width: 100%;
+        margin: 0rem;
     }
 
     .carouselItem {
@@ -166,5 +173,9 @@ footer {
     .heroimage {
         height: 60vh;
 
+    }
+
+    footer{
+        padding: 2rem 5rem;
     }
 }
