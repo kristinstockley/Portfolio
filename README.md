@@ -18,3 +18,4 @@ My goal was to keep the portfolio simple and clean, with easy navigation. I star
 <h2>Unsolved Problems:</h2>
 <li>Project card backgrounds changing with Dark/Light Mode</li>
 <li>Resume link in navbar staying black after user click</li>
+<li>Resume showing 2nd page on mobile</li>
