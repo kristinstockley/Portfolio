@@ -27,10 +27,6 @@ h1 {
   font-weight: bold;
 }
 
-.navbar-toggler-icon {
-  background-color: white;
-}
-
 .featurette-divider {
   color: black;
   border-width: .2rem;
@@ -106,7 +102,7 @@ h1 {
   border-radius: 50px;
   font-size: 14px;
   text-transform: uppercase;
-  color: black;
+  fill: linear-gradient(135deg, teal 0%, purple 100%);
 }
 
 
@@ -278,7 +274,7 @@ footer {
   }
 
   .profile .profile-img {
-    height: 45vw;
+    height: 40vw;
   }
 
   .profile .dots-1 {
