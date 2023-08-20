@@ -173,7 +173,7 @@ h1 {
 }
 
 .profile .dots-1 svg {
-  fill: #fff;
+  fill: skyblue;
 }
 
 .profile .dots-2 {
@@ -184,7 +184,7 @@ h1 {
 }
 
 .profile .dots-2 svg {
-  fill: midnightblue;
+  fill: purple;
 }
 
 .profile .dots-3 {
@@ -195,7 +195,7 @@ h1 {
 }
 
 .profile .dots-3 svg {
-  fill: #fff;
+  fill: skyblue;
 }
 
 .profile .dots-4 {
@@ -206,7 +206,7 @@ h1 {
 }
 
 .profile .dots-4 svg {
-  fill: midnightblue;
+  fill: purple;
 }
 
 .furr {
@@ -222,10 +222,10 @@ footer {
 }
 
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .profile {
-    height: 50vw;
-    width: 50vw;
+    height: 60vw;
+    width: 60vw;
   }
 
   .profile .profile-img {
@@ -251,12 +251,46 @@ footer {
     width: 3vw;
     left: -4vw;
   }
+  .about{
+    font-size: 1.2rem;
+  }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .profile {
-    height: 50vw;
-    width: 50vw;
+    height: 65vw;
+    width: 65vw;
+  }
+
+  .profile .profile-img {
+    height: 70vw;
+  }
+
+  .profile .dots-1 {
+    width: 3.5vw;
+    right: 1.5vw;
+  }
+
+  .profile .dots-2 {
+    width: 3.5vw;
+    right: -4vw;
+  }
+
+  .profile .dots-3 {
+    width: 3.5vw;
+    left: 1.5vw;
+  }
+
+  .profile .dots-4 {
+    width: 3.5vw;
+    left: -4vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .profile {
+    height: 55vw;
+    width: 55vw;
   }
 
   .profile .profile-img {
@@ -265,7 +299,7 @@ footer {
 
   .profile .dots-1 {
     width: 3vw;
-    right: 1.5vw;
+    right: 1.75vw;
   }
 
   .profile .dots-2 {
@@ -275,43 +309,12 @@ footer {
 
   .profile .dots-3 {
     width: 3vw;
-    left: 1.5vw;
+    left: 1.75vw;
   }
 
   .profile .dots-4 {
     width: 3vw;
     left: -4vw;
-  }
-}
-
-@media (min-width: 992px) {
-  .profile {
-    height: 35vw;
-    width: 35vw;
-  }
-
-  .profile .profile-img {
-    height: 40vw;
-  }
-
-  .profile .dots-1 {
-    width: 1.5vw;
-    right: 0.75vw;
-  }
-
-  .profile .dots-2 {
-    width: 1.5vw;
-    right: -2vw;
-  }
-
-  .profile .dots-3 {
-    width: 1.5vw;
-    left: 0.75vw;
-  }
-
-  .profile .dots-4 {
-    width: 1.5vw;
-    left: -2vw;
   }
 }
 
