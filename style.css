@@ -289,12 +289,12 @@ footer {
 
 @media (max-width: 992px) {
   .profile {
-    height: 55vw;
-    width: 55vw;
+    height: 60vw;
+    width: 60vw;
   }
 
   .profile .profile-img {
-    height: 55vw;
+    height: 65vw;
   }
 
   .profile .dots-1 {
@@ -351,7 +351,7 @@ footer {
 
 @media (max-width: 576px) {
   .project-info {
-    height: 40%;
+    height: 50%;
     padding: 10px;
   }
   .project-title {
@@ -403,12 +403,11 @@ footer {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .project-info {
-    height: 50%;
+    height: 60%;
     padding: 15px;
   }
   .rectangle-container{
     margin-bottom: 1rem;
-    height: 100%;
   }
 
 
