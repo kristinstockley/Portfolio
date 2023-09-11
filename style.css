@@ -254,7 +254,14 @@ footer {
   .about{
     font-size: 1.2rem;
   }
+
+
+  .modal-body embed {
+    width: 100%;
+    height: auto; 
+  }
 }
+
 
 @media (max-width: 768px) {
   .profile {
