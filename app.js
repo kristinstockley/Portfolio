@@ -1,14 +1,3 @@
-// RESUME MODAL
-function openResume() {
-    const resumeModal = document.querySelector('#resumeModal');
-    const resumeIframe = document.querySelector('#resumeIframe');
-    resumeIframe.src = './Kristin Stockley Resume.pdf';
-    const modal = new bootstrap.Modal(resumeModal);
-    modal.show();
-}
-
-
-
 // SCROLL TO TOP
 const scrollBtn = document.getElementById("scrollBtn");
 
