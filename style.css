@@ -6,6 +6,8 @@ h1 {
   font-weight: bold;
 }
 
+
+
 /* NAV BAR */
 .navbar {
   background-color: rgba(211, 211, 211, 0.601);
@@ -37,7 +39,9 @@ h1 {
 
 .badge {
   background: linear-gradient(135deg, teal 0%, purple 100%);
-
+  font-size: .85rem;
+  font-weight: lighter;
+  letter-spacing: .75px;
 }
 
 .text-gradient {

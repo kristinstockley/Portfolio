@@ -1,5 +1,5 @@
 // Typing text
-const text = "Hi, I'm Kristin.";
+const text = "Hi, I'm Kristin!";
 const typingSpeed = 100;
 
 const typingTextElement = document.getElementById('typing-text');
