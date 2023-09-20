@@ -1,12 +1,11 @@
-# Portfolio
+# Kristin Stockley - Portfolio
 
-This is my portfolio to showcase my skills and projects. You can view the live site at https://kristinstockley.netlify.app/.
+Welcome to my portfolio! This is where I showcase my skills, projects, and journey in the world of web development. You can explore my live site [here](https://kristinstockley.netlify.app/).
 
-<h2>Technologies Used:</h2>
-<ul>
-<li>HTML</li>
-<li>CSS
-<li>JavaScript</li>
-<li>Bootstrap</li>
-<li>Netlify (for deployment)</li>
-</ul>
+## A Little About Me
+My journey into front-end development began with a deep fascination for the intersection of design and technology. I believe in the power of well-crafted websites to leave a lasting impact on users.
+
+Each project in my portfolio represents a unique challenge I embraced, showcasing my ability to turn ideas into reality.
+
+## Technologies Used
+![Technologies](https://skillicons.dev/icons?i=html,css,js,bootstrap,netlify)
